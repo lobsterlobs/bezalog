@@ -1160,22 +1160,24 @@ footer{background:var(--navy);color:white;padding:72px 48px 32px;}
   <div class="mod-hero">
     <div class="mod-hero-inner">
       <div class="section-tag" style="background:rgba(0,194,168,0.15);color:var(--teal);">Медийна библиотека</div>
-      <h2 class="section-title" style="color:white;">Всички материали</h2>
+     <h2 class="section-title" style="color:white;">Медийна библиотека</h2>
       <p style="color:rgba(255,255,255,0.6);font-size:17px;">Видеа, подкасти, инфографики и социални карти. Свободно достъпни.</p>
+      </div>
     </div>
-  </div>
-  <div class="mod-content">
-    <div class="archive-filter">
-      <button class="filter-btn active" onclick="filterArchive('all',this)">Всички</button>
-      <button class="filter-btn" onclick="filterArchive('video',this)">Видеа</button>
-      <button class="filter-btn" onclick="filterArchive('podcast',this)">Подкасти</button>
-      <button class="filter-btn" onclick="filterArchive('infographic',this)">Инфографики</button>
-      <button class="filter-btn" onclick="filterArchive('visii',this)">Визии</button>
-      <button class="filter-btn" onclick="filterArchive('story',this)">Stories</button>
-      <button class="filter-btn" onclick="filterArchive('banner',this)">Банери</button>
+
+    <div class="mod-content">
+      <div class="archive-filter">
+        <button class="filter-btn active" onclick="filterArchive('video',this)">Видеоклипове с послание</button>
+        <button class="filter-btn" onclick="filterArchive('explainer',this)">Анимационно видео</button>
+        <button class="filter-btn" onclick="filterArchive('infographic',this)">Инфографики</button>
+        <button class="filter-btn" onclick="filterArchive('visii',this)">Визии</button>
+        <button class="filter-btn" onclick="filterArchive('story',this)">Stories</button>
+        <button class="filter-btn" onclick="filterArchive('banner',this)">Банери</button>
+        <button class="filter-btn" onclick="filterArchive('podcast',this)">Подкаст</button>
+        <button class="filter-btn" onclick="filterArchive('qna',this)">Q&A сесии</button>
+      </div>
+      <div class="archive-grid" id="archive-grid"><!-- попълва се от archive-data.js --></div>
     </div>
-    <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text-light);margin-bottom:20px;">Всички материали</div>
-    <div class="archive-grid" id="archive-grid"><!-- попълва се от archive-data.js --></div>
   </div>
 </div>
 
