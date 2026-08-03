@@ -22,15 +22,7 @@
 
 const ARCHIVE_ITEMS = [
   // ---------------- ВИДЕОКЛИПОВЕ С ПОСЛАНИЕ ----------------
-{
-    cat: 'video',
-    title: 'Казиното и майка',
-    desc: 'Документален стил — синът и хазартната зависимост през очите на майка му',
-    thumb: 'images/archive/web/video-kazinoto-poster.jpg',
-    video: 'images/archive/video/kazinoto-i-mayka.mp4',
-    type: 'Видеоклип с послание',
-    typeColor: '#E53E3E'
-  },
+
 {
     cat: 'video',
     title: 'Казиното и майка',
