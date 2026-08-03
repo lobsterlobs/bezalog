@@ -28,7 +28,7 @@ const ARCHIVE_ITEMS = [
     desc: 'Жена сама с сметките на кухненската маса през нощта',
     thumb: 'images/archive/web/video-skrit-dalg-poster.jpg',
     video: 'images/archive/video/skrit-dalg-final13.mp4',
-    type: 'Видеоклип с послание',
+    type: 'Видеоклип с послание',TODO: Story #8
     typeColor: '#E53E3E'
   },
   {
@@ -40,8 +40,15 @@ const ARCHIVE_ITEMS = [
     type: 'Видеоклип с послание',
     typeColor: '#E53E3E'
   },
-  // TODO: "Казиното и майка" — качи файла в GitHub, после ми кажи името
-  // и ще добавя реда тук (документален стил, ~100 сек)
+{
+    cat: 'video',
+    title: 'Казиното и майка',
+    desc: 'Документален стил — синът и хазартната зависимост през очите на майка му',
+    thumb: 'images/archive/web/video-kazinoto-poster.jpg',
+    video: 'images/archive/video/kazinoto-i-mayka.mp4',
+    type: 'Видеоклип с послание',
+    typeColor: '#E53E3E'
+  },
 
   // ---------------- АНИМАЦИОННО ВИДЕО ----------------
   {
@@ -446,8 +453,43 @@ const ARCHIVE_ITEMS = [
     type: 'Story',
     typeColor: 'var(--teal)'
   }
-  // TODO: Story #8 "2:47 часа" (story-alarm-final.mp4) — качен е,
-  // само трябва да добавя реда тук
+,
+  {
+    cat: 'story',
+    title: 'Скрит дълг',
+    desc: 'Жена сама с сметките на кухненската маса през нощта',
+    thumb: 'images/archive/web/story-womenvsfact-poster.jpg',
+    video: 'images/archive/video/womenVSfact.mov',
+    type: 'Story',
+    typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'story',
+    title: 'Празен портфейл',
+    desc: 'Мъж сам на банкомат навън през нощта',
+    thumb: 'images/archive/web/story-nomoney-poster.jpg',
+    video: 'images/archive/video/Nomoney.mp4',
+    type: 'Story',
+    typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'story',
+    title: '2:47 часа',
+    desc: 'Кога последно спа нормално?',
+    thumb: 'images/archive/web/story-247-poster.jpg',
+    video: 'images/archive/video/247.mp4',
+    type: 'Story',
+    typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'story',
+    title: 'Митове за хазарта',
+    desc: 'Мит vs факт — най-честите заблуди за хазартната зависимост',
+    thumb: 'images/archive/web/story-mvsf-poster.jpg',
+    video: 'images/archive/video/mVSf.MOV',
+    type: 'Story',
+    typeColor: 'var(--teal)'
+  }
 
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
