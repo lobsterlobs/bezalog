@@ -22,21 +22,12 @@
 
 const ARCHIVE_ITEMS = [
   // ---------------- ВИДЕОКЛИПОВЕ С ПОСЛАНИЕ ----------------
-  {
+{
     cat: 'video',
-    title: 'Скрит дълг',
-    desc: 'Жена сама с сметките на кухненската маса през нощта',
-    thumb: 'images/archive/web/video-skrit-dalg-poster.jpg',
-    video: 'images/archive/video/skrit-dalg-final13.mp4',
-    type: 'Видеоклип с послание',TODO: Story #8
-    typeColor: '#E53E3E'
-  },
-  {
-    cat: 'video',
-    title: 'Празен портфейл',
-    desc: 'Мъж сам на банкомат навън през нощта',
-    thumb: 'images/archive/web/video-prazen-portfeyl-poster.jpg',
-    video: 'images/archive/video/prazen-portfeyl-final6.mp4',
+    title: 'Казиното и майка',
+    desc: 'Документален стил — синът и хазартната зависимост през очите на майка му',
+    thumb: 'images/archive/web/video-kazinoto-poster.jpg',
+    video: 'images/archive/video/kazinoto-i-mayka.mp4',
     type: 'Видеоклип с послание',
     typeColor: '#E53E3E'
   },
