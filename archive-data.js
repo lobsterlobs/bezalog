@@ -32,6 +32,15 @@ const ARCHIVE_ITEMS = [
     type: 'Видеоклип с послание',
     typeColor: '#E53E3E'
   },
+  {
+    cat: 'video',
+    title: 'Цената на залога',
+    desc: 'Обяснително видео — защо мозъкът не може да спре: допамин, near-miss ефект и биологията на хазартната зависимост',
+    thumb: 'images/archive/web/video-tsenata-poster.jpg',
+    video: 'images/archive/video/tsenata-na-zaloga.mp4',
+    type: 'Видеоклип с послание',
+    typeColor: '#E53E3E'
+  },
 
   // ---------------- АНИМАЦИОННО ВИДЕО ----------------
   {
