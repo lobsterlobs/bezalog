@@ -481,6 +481,14 @@ const ARCHIVE_ITEMS = [
     video: 'images/archive/video/mVSf.MOV',
     type: 'Story',
     typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'banner',
+    title: 'Meta реклама — 15-17.07.2026',
+    desc: 'Платена реклама във Facebook и Instagram. Доказателство: facebook.com/ads/library/?id=1458153403024937',
+    thumb: 'images/archive/web/banner-meta-01.jpg',
+    type: 'Meta',
+    typeColor: '#1877F2'
   }
 
   // ⬇ добавяй нови готови материали тук, по същия образец
@@ -489,7 +497,6 @@ const ARCHIVE_ITEMS = [
 // Placeholder карти за категории, които още не са напълно готови.
 // Без бройки в текста — само име на секцията + бележка.
 const ARCHIVE_PLACEHOLDERS = [
-  { cat: 'banner',  label: 'Банери',  count: '', note: 'Очаквайте скоро' },
   { cat: 'podcast', label: 'Подкаст', count: '', note: 'Очаквайте скоро' },
   { cat: 'qna',     label: 'Q&A сесии', count: '', note: 'Очаквайте скоро' }
 ];
