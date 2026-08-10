@@ -484,85 +484,149 @@ const ARCHIVE_ITEMS = [
   },
 {
     cat: 'banner',
-    title: 'Meta реклама — лого БЕЗ ЗАЛОГ',
-   desc: 'Платено рекламно разположение в Instagram, 15-17.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=1458153403024937" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    title: 'Instagram — лого БЕЗ ЗАЛОГ',
+    desc: 'Платено рекламно разположение в Instagram, 15-17.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=1458153403024937" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
     thumb: 'images/archive/web/banner-meta-01.jpg',
-    type: 'Meta',
-    typeColor: '#1877F2'
+    type: 'Instagram',
+    typeColor: '#E4405F'
   },
   {
     cat: 'banner',
-    title: 'Meta реклама — 16-20.07.2026',
-    desc: 'Платено рекламно разположение в Meta, 16-20.07.2026 г. Meta Библиотека с реклами, идентификатор 2588577144910715',
+    title: 'Facebook — Мит: Аз разбирам от футбол',
+    desc: 'Платено рекламно разположение във Facebook, 16-20.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=1275906821117563" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
     thumb: 'images/archive/web/banner-meta-02.jpg',
-    type: 'Meta',
+    type: 'Facebook',
     typeColor: '#1877F2'
   },
   {
     cat: 'banner',
-    title: 'Meta реклама — 22-23.07.2026',
-    desc: 'Платено рекламно разположение в Meta, 22-23.07.2026 г. Meta Библиотека с реклами, идентификатор 2271308100370164',
+    title: 'Meta — Мислиш, че контролираш?',
+    desc: 'Платено рекламно разположение във Facebook и Instagram, 16-20.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=2588577144910715" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
     thumb: 'images/archive/web/banner-meta-03.jpg',
     type: 'Meta',
     typeColor: '#1877F2'
   },
   {
     cat: 'banner',
-    title: 'Meta реклама — 28.07.2026',
-    desc: 'Платено рекламно разположение в Meta, 28.07.2026 г. Meta Библиотека с реклами, идентификатор 1035759132602726',
+    title: 'Meta — Аз контролирам колко залагам',
+    desc: 'Платено рекламно разположение във Facebook, Instagram и Messenger, 16-20.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=2798641997202676" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
     thumb: 'images/archive/web/banner-meta-04.jpg',
     type: 'Meta',
     typeColor: '#1877F2'
   },
   {
     cat: 'banner',
-    title: 'TikTok реклама — 14-18.07.2026',
-    desc: 'Платено рекламно разположение в TikTok, 14-18.07.2026 г. TikTok Ad Library, профил 7662474351198994448',
+    title: 'Instagram — 2:47 през нощта',
+    desc: 'Платено рекламно разположение в Instagram, 22-23.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=2271308100370164" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    thumb: 'images/archive/web/banner-meta-05.jpg',
+    type: 'Instagram',
+    typeColor: '#E4405F'
+  },
+  {
+    cat: 'banner',
+    title: 'Facebook — 2:47 през нощта',
+    desc: 'Платено рекламно разположение във Facebook и Messenger, 22-24.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=4033957123407181" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    thumb: 'images/archive/web/banner-meta-05.jpg',
+    type: 'Facebook',
+    typeColor: '#1877F2'
+  },
+  {
+    cat: 'banner',
+    title: 'Instagram — Сметките не крещят',
+    desc: 'Платено рекламно разположение в Instagram, 28.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=1035759132602726" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    thumb: 'images/archive/web/banner-meta-07.jpg',
+    type: 'Instagram',
+    typeColor: '#E4405F'
+  },
+  {
+    cat: 'banner',
+    title: 'Instagram — Мога да спра когато искам',
+    desc: 'Платено рекламно разположение в Instagram, 04.08.2026 г. <a href="https://www.facebook.com/ads/library/?id=1586415589517585" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    thumb: 'images/archive/web/banner-meta-08.jpg',
+    type: 'Instagram',
+    typeColor: '#E4405F'
+  },
+  {
+    cat: 'banner',
+    title: 'Meta — Зависимостта не е слабост на характера',
+    desc: 'Платено рекламно разположение във Facebook и Instagram, 05.08.2026 г. <a href="https://www.facebook.com/ads/library/?id=1587013642793510" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    thumb: 'images/archive/web/banner-meta-09.jpg',
+    type: 'Meta',
+    typeColor: '#1877F2'
+  },
+  {
+    cat: 'banner',
+    title: 'Meta — 1 от 5',
+    desc: 'Платено рекламно разположение във Facebook и Instagram, 09.08.2026 г. <a href="https://www.facebook.com/ads/library/?id=2044602426196019" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
+    thumb: 'images/archive/web/banner-meta-10.jpg',
+    type: 'Meta',
+    typeColor: '#1877F2'
+  },
+  {
+    cat: 'banner',
+    title: 'TikTok — 14-18.07.2026',
+    desc: 'Платено рекламно разположение в TikTok, 14-18.07.2026 г. <a href="https://library.tiktok.com/ads?region=BG&adv_biz_ids=7662474351198994448" target="_blank" rel="noopener">Виж в TikTok Ad Library</a>',
     thumb: 'images/archive/web/banner-tiktok-01.jpg',
     type: 'TikTok',
     typeColor: '#0E2945'
   },
   {
     cat: 'banner',
-    title: 'TikTok реклама — 16-20.07.2026',
-    desc: 'Платено рекламно разположение в TikTok, 16-20.07.2026 г. TikTok Ad Library, профил 7662474351198994448',
+    title: 'TikTok — 16-20.07.2026',
+    desc: 'Платено рекламно разположение в TikTok, 16-20.07.2026 г. <a href="https://library.tiktok.com/ads?region=BG&adv_biz_ids=7662474351198994448" target="_blank" rel="noopener">Виж в TikTok Ad Library</a>',
     thumb: 'images/archive/web/banner-tiktok-02.jpg',
     type: 'TikTok',
     typeColor: '#0E2945'
   },
   {
     cat: 'banner',
-    title: 'TikTok реклама — 21.07.2026',
-    desc: 'Платено рекламно разположение в TikTok, 21.07.2026 г. TikTok Ad Library, профил 7662474351198994448',
+    title: 'TikTok — Чувал ли си за голямата печалба? (21.07.2026)',
+    desc: 'Платено рекламно разположение в TikTok, 21.07.2026 г. <a href="https://library.tiktok.com/ads?region=BG&adv_biz_ids=7662474351198994448" target="_blank" rel="noopener">Виж в TikTok Ad Library</a>',
     thumb: 'images/archive/web/banner-tiktok-03.jpg',
     type: 'TikTok',
     typeColor: '#0E2945'
   },
   {
     cat: 'banner',
-    title: 'TikTok реклама — 24.07.2026',
-    desc: 'Платено рекламно разположение в TikTok, 24.07.2026 г. TikTok Ad Library, профил 7662474351198994448',
-    thumb: 'images/archive/web/banner-tiktok-04.jpg',
+    title: 'TikTok — Чувал ли си за голямата печалба? (24.07.2026)',
+    desc: 'Платено рекламно разположение в TikTok, 24.07.2026 г. <a href="https://library.tiktok.com/ads?region=BG&adv_biz_ids=7662474351198994448" target="_blank" rel="noopener">Виж в TikTok Ad Library</a>',
+    thumb: 'images/archive/web/banner-tiktok-03.jpg',
     type: 'TikTok',
     typeColor: '#0E2945'
   },
   {
     cat: 'banner',
-    title: 'YouTube реклама',
-    desc: 'Платено видео рекламно разположение в YouTube. Google Ads Transparency Center, рекламодател AR17964035044364255233',
+    title: 'TikTok — Мит: Аз разбирам от футбол',
+    desc: 'Платено рекламно разположение в TikTok, 02-03.08.2026 г. <a href="https://library.tiktok.com/ads?region=BG&adv_biz_ids=7662474351198994448" target="_blank" rel="noopener">Виж в TikTok Ad Library</a>',
+    thumb: 'images/archive/web/banner-tiktok-05.jpg',
+    type: 'TikTok',
+    typeColor: '#0E2945'
+  },
+  {
+    cat: 'banner',
+    title: 'TikTok — Чувал ли си за голямата печалба? (05.08.2026)',
+    desc: 'Платено рекламно разположение в TikTok, 05.08.2026 г. <a href="https://library.tiktok.com/ads?region=BG&adv_biz_ids=7662474351198994448" target="_blank" rel="noopener">Виж в TikTok Ad Library</a>',
+    thumb: 'images/archive/web/banner-tiktok-03.jpg',
+    type: 'TikTok',
+    typeColor: '#0E2945'
+  },
+  {
+    cat: 'banner',
+    title: 'YouTube — видеореклама',
+    desc: 'Платено видео рекламно разположение в YouTube, 19-31.07.2026 г. <a href="https://adstransparency.google.com/advertiser/AR17964035044364255233/creative/CR18018561475253108737?region=BG" target="_blank" rel="noopener">Виж в Google Ads Transparency Center</a>',
     thumb: 'images/archive/web/banner-youtube.jpg',
     type: 'YouTube',
     typeColor: '#FF0000'
   },
   {
     cat: 'banner',
-    title: 'Google Търсене — 07-14.08.2026',
-    desc: 'Платено рекламно разположение в Google Търсене по ключови думи за хазартна зависимост, 07-14.08.2026 г. Google Ads Transparency Center, рекламодател AR17964035044364255233',
+    title: 'Google Търсене',
+    desc: 'Платено рекламно разположение в Google Търсене по ключови думи за хазартна зависимост, 07-14.08.2026 г. <a href="https://adstransparency.google.com/advertiser/AR17964035044364255233?region=BG" target="_blank" rel="noopener">Виж в Google Ads Transparency Center</a>',
     thumb: 'images/archive/web/banner-google-search.jpg',
     type: 'Google Ads',
     typeColor: '#4285F4'
   }
-
+  
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
 
