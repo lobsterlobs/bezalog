@@ -485,7 +485,7 @@ const ARCHIVE_ITEMS = [
 {
     cat: 'banner',
     title: 'Meta реклама — лого БЕЗ ЗАЛОГ',
-    desc: 'Платено рекламно разположение в Instagram, 15-17.07.2026 г. Meta Библиотека с реклами, идентификатор 1458153403024937',
+   desc: 'Платено рекламно разположение в Instagram, 15-17.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=1458153403024937" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
     thumb: 'images/archive/web/banner-meta-01.jpg',
     type: 'Meta',
     typeColor: '#1877F2'
