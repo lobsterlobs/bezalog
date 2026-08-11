@@ -431,7 +431,10 @@ footer{background:var(--navy);color:white;padding:72px 48px 32px;}
 
 <!-- HOME -->
 <div id="page-home" class="page active">
-  <div class="bz-ask">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="bz-ask">
   <span class="bz-ask__hook" aria-hidden="true"></span>
   <div class="bz-ask__sway">
     <div class="bz-ask__swing">
@@ -446,25 +449,22 @@ footer{background:var(--navy);color:white;padding:72px 48px 32px;}
 </div>
 
 <style>
-.bz-ask{position:relative;display:flex;justify-content:center;padding:56px 16px 64px}
-.bz-ask__hook{position:absolute;top:52px;left:50%;width:11px;height:11px;margin-left:-5.5px;border-radius:50%;background:#00C2A8;z-index:2}
+.bz-ask{position:relative;display:flex;justify-content:center;padding:0 16px 4px;z-index:5}
+.bz-ask__hook{position:absolute;top:0;left:50%;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:rgba(255,255,255,.55);z-index:2}
 .bz-ask__sway{transform-origin:50% 0;animation:bz-sway 6s ease-in-out 3.6s infinite}
-.bz-ask__swing{position:relative;padding-top:40px;transform-origin:50% 0;animation:bz-swing 3.4s cubic-bezier(.28,.68,.34,1) .35s 1}
-.bz-ask__cord{position:absolute;top:4px;width:2px;height:42px;background:#00C2A8;opacity:.5;transform-origin:top center}
-.bz-ask__cord--l{left:calc(50% - 86px);transform:rotate(13deg)}
-.bz-ask__cord--r{left:calc(50% + 86px);transform:rotate(-13deg)}
-.bz-ask__plate{display:block;padding:20px 34px;text-align:center;text-decoration:none;background:#0E2945;border:1px solid rgba(0,194,168,.4);border-radius:14px;transition:border-color .25s ease,transform .25s ease}
-.bz-ask__plate:hover{border-color:#00C2A8;transform:translateY(2px)}
-.bz-ask__mail{display:block;color:#FFD93D;font-weight:700;font-size:1.2rem;letter-spacing:.3px}
-.bz-ask__sub{display:block;margin-top:7px;color:rgba(255,255,255,.6);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase}
+.bz-ask__swing{position:relative;padding-top:34px;transform-origin:50% 0;animation:bz-swing 3.4s cubic-bezier(.28,.68,.34,1) .35s 1}
+.bz-ask__cord{position:absolute;top:3px;width:2px;height:36px;background:rgba(255,255,255,.4);transform-origin:top center}
+.bz-ask__cord--l{left:calc(50% - 82px);transform:rotate(12deg)}
+.bz-ask__cord--r{left:calc(50% + 82px);transform:rotate(-12deg)}
+.bz-ask__plate{display:block;padding:16px 30px;text-align:center;text-decoration:none;background:#FFD93D;border-radius:14px;transition:transform .25s ease,filter .25s ease}
+.bz-ask__plate:hover{filter:brightness(1.06);transform:translateY(2px)}
+.bz-ask__mail{display:block;color:#0E2945;font-weight:700;font-size:1.15rem;letter-spacing:.3px}
+.bz-ask__sub{display:block;margin-top:6px;color:rgba(14,41,69,.75);font-size:.7rem;letter-spacing:.09em;text-transform:uppercase}
 @keyframes bz-swing{0%{transform:rotate(0)}8%{transform:rotate(9deg)}22%{transform:rotate(-7deg)}38%{transform:rotate(4.5deg)}55%{transform:rotate(-3deg)}72%{transform:rotate(1.8deg)}86%{transform:rotate(-.9deg)}100%{transform:rotate(0)}}
 @keyframes bz-sway{0%,100%{transform:rotate(-1.1deg)}50%{transform:rotate(1.1deg)}}
-@media (max-width:600px){.bz-ask__plate{padding:16px 22px}.bz-ask__mail{font-size:1rem}.bz-ask__cord--l{left:calc(50% - 66px)}.bz-ask__cord--r{left:calc(50% + 66px)}}
+@media (max-width:600px){.bz-ask__plate{padding:13px 20px}.bz-ask__mail{font-size:.95rem}.bz-ask__sub{font-size:.62rem}.bz-ask__cord--l{left:calc(50% - 62px)}.bz-ask__cord--r{left:calc(50% + 62px)}}
 @media (prefers-reduced-motion:reduce){.bz-ask__sway,.bz-ask__swing{animation:none}}
 </style>
-
-  <!-- HERO -->
-  <div class="hero">
     <div class="hero-blob hero-blob-1"></div>
     <div class="hero-blob hero-blob-2"></div>
     <div class="hero-blob hero-blob-3"></div>
