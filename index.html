@@ -431,6 +431,37 @@ footer{background:var(--navy);color:white;padding:72px 48px 32px;}
 
 <!-- HOME -->
 <div id="page-home" class="page active">
+  <div class="bz-ask">
+  <span class="bz-ask__hook" aria-hidden="true"></span>
+  <div class="bz-ask__sway">
+    <div class="bz-ask__swing">
+      <span class="bz-ask__cord bz-ask__cord--l" aria-hidden="true"></span>
+      <span class="bz-ask__cord bz-ask__cord--r" aria-hidden="true"></span>
+      <a class="bz-ask__plate" href="mailto:pitam@bezalog.bg">
+        <span class="bz-ask__mail">pitam@bezalog.bg</span>
+        <span class="bz-ask__sub">Задайте своите въпроси</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+.bz-ask{position:relative;display:flex;justify-content:center;padding:56px 16px 64px}
+.bz-ask__hook{position:absolute;top:52px;left:50%;width:11px;height:11px;margin-left:-5.5px;border-radius:50%;background:#00C2A8;z-index:2}
+.bz-ask__sway{transform-origin:50% 0;animation:bz-sway 6s ease-in-out 3.6s infinite}
+.bz-ask__swing{position:relative;padding-top:40px;transform-origin:50% 0;animation:bz-swing 3.4s cubic-bezier(.28,.68,.34,1) .35s 1}
+.bz-ask__cord{position:absolute;top:4px;width:2px;height:42px;background:#00C2A8;opacity:.5;transform-origin:top center}
+.bz-ask__cord--l{left:calc(50% - 86px);transform:rotate(13deg)}
+.bz-ask__cord--r{left:calc(50% + 86px);transform:rotate(-13deg)}
+.bz-ask__plate{display:block;padding:20px 34px;text-align:center;text-decoration:none;background:#0E2945;border:1px solid rgba(0,194,168,.4);border-radius:14px;transition:border-color .25s ease,transform .25s ease}
+.bz-ask__plate:hover{border-color:#00C2A8;transform:translateY(2px)}
+.bz-ask__mail{display:block;color:#FFD93D;font-weight:700;font-size:1.2rem;letter-spacing:.3px}
+.bz-ask__sub{display:block;margin-top:7px;color:rgba(255,255,255,.6);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase}
+@keyframes bz-swing{0%{transform:rotate(0)}8%{transform:rotate(9deg)}22%{transform:rotate(-7deg)}38%{transform:rotate(4.5deg)}55%{transform:rotate(-3deg)}72%{transform:rotate(1.8deg)}86%{transform:rotate(-.9deg)}100%{transform:rotate(0)}}
+@keyframes bz-sway{0%,100%{transform:rotate(-1.1deg)}50%{transform:rotate(1.1deg)}}
+@media (max-width:600px){.bz-ask__plate{padding:16px 22px}.bz-ask__mail{font-size:1rem}.bz-ask__cord--l{left:calc(50% - 66px)}.bz-ask__cord--r{left:calc(50% + 66px)}}
+@media (prefers-reduced-motion:reduce){.bz-ask__sway,.bz-ask__swing{animation:none}}
+</style>
 
   <!-- HERO -->
   <div class="hero">
