@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Къде да потърсиш помощ — БЕЗ ЗАЛОГ</title>
+<meta name="description" content="Списък с места за помощ при хазартна зависимост в България — национална линия, групи за взаимопомощ, държавни центрове и частни центрове.">
+<style>
+:root{
+  --navy:#0E2945; --navy-2:#132644; --navy-3:#1B3757;
+  --teal:#00C2A8; --yellow:#FFD93D;
+  --paper:#F5F7F9; --ink:#0E2945; --muted:#5B7085; --line:#DCE4EA;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:840px;margin:0 auto;padding:0 20px}
+
+/* header */
+.top{background:var(--navy);padding:18px 0}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{color:var(--yellow);font-weight:800;letter-spacing:.5px;text-decoration:none;font-size:1.05rem}
+.brand span{display:block;color:var(--teal);font-size:.7rem;font-weight:700}
+.back{color:#fff;text-decoration:none;font-size:.85rem;opacity:.85;border:1px solid rgba(255,255,255,.25);
+  padding:8px 14px;border-radius:999px}
+.back:hover{opacity:1;border-color:var(--teal)}
+
+/* hero */
+.hero{background:var(--navy);color:#fff;padding:44px 0 56px}
+.eyebrow{display:inline-block;color:var(--teal);font-size:.72rem;font-weight:700;
+  letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
+.hero h1{margin:0 0 14px;font-size:clamp(1.9rem,5.4vw,2.9rem);line-height:1.15;font-weight:800}
+.hero p{margin:0;max-width:60ch;color:rgba(255,255,255,.72);font-size:1.02rem}
+
+/* urgent line */
+.line{margin:-28px auto 0;max-width:840px;padding:0 20px}
+.line-in{background:var(--yellow);border-radius:16px;padding:22px 24px;
+  box-shadow:0 10px 30px rgba(14,41,69,.16)}
+.line-in .lbl{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(14,41,69,.65)}
+.line-in .num{display:block;margin:4px 0 6px;font-size:clamp(1.6rem,6vw,2.2rem);
+  font-weight:800;letter-spacing:.5px;text-decoration:none}
+.line-in .meta{font-size:.9rem;color:rgba(14,41,69,.75)}
+.line-in .meta a{font-weight:700}
+
+/* intro */
+.intro{margin:38px 0 0;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 26px 24px}
+.intro h2{margin:0 0 14px;font-size:1.25rem;font-weight:800}
+.intro p{margin:0 0 13px;font-size:.97rem;color:var(--muted)}
+.intro p:last-child{margin-bottom:0}
+.intro .strong{color:var(--ink);font-weight:600;border-left:3px solid var(--teal);
+  padding-left:14px;margin:18px 0}
+
+
+/* map */
+.map{margin:34px 0 0;background:var(--navy);border-radius:16px;padding:24px 22px 18px;color:#fff}
+.map h2{margin:0 0 6px;font-size:1.15rem;font-weight:800}
+.map-sub{margin:0 0 14px;font-size:.86rem;color:rgba(255,255,255,.55)}
+.map svg{width:100%;height:auto;display:block;overflow:visible}
+.map .bg-out{fill:rgba(0,194,168,.07);stroke:rgba(0,194,168,.55);stroke-width:2.5;
+  stroke-linejoin:round;stroke-linecap:round}
+.map a{cursor:pointer}
+.map a circle{fill:var(--yellow);stroke:rgba(255,217,61,.28);stroke-width:8;transition:r .2s ease,fill .2s ease,stroke-width .2s ease}
+.map a text{fill:rgba(255,255,255,.85);font-size:22px;font-weight:700;text-anchor:middle;
+  paint-order:stroke;stroke:var(--navy);stroke-width:5px}
+.map a:hover circle,.map a:focus circle{r:12;fill:#fff;stroke-width:14}
+.map a:hover text,.map a:focus text{fill:var(--teal)}
+@media (max-width:600px){.map a text{font-size:30px}.map{padding:18px 14px 14px}}
+
+/* note */
+.note{margin:22px 0 6px;background:#fff;border:1px solid var(--line);
+  border-left:4px solid var(--navy-3);border-radius:12px;padding:18px 20px}
+.note h2{margin:0 0 8px;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.note p{margin:0;font-size:.94rem;color:var(--muted)}
+
+/* sections */
+section{margin:44px 0}
+.sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.sec-head h2{margin:0;font-size:1.35rem;font-weight:800}
+.sec-head .free{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:#0B7D6C;background:rgba(0,194,168,.14);padding:4px 10px;border-radius:999px}
+.sec-head .paid{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:#8A6A00;background:rgba(255,217,61,.28);padding:4px 10px;border-radius:999px}
+.sec-sub{margin:0 0 18px;color:var(--muted);font-size:.95rem;max-width:62ch}
+
+/* cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:12px}
+.card{scroll-margin-top:24px}
+.card h3{margin:0 0 4px;font-size:1.05rem;font-weight:800}
+.card .city{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--teal);margin-bottom:8px}
+.card p{margin:0 0 10px;font-size:.95rem;color:var(--muted)}
+.card ul{margin:0 0 10px;padding-left:18px;font-size:.95rem;color:var(--muted)}
+.card li{margin-bottom:3px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.meta a,.meta span{display:inline-block;font-size:.88rem;text-decoration:none;
+  padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--paper)}
+.meta a:hover{border-color:var(--teal);color:#0B7D6C}
+.meta .addr{color:var(--muted);border-style:dashed}
+
+/* footer */
+footer{background:var(--navy);color:rgba(255,255,255,.6);margin-top:56px;padding:34px 0 40px;font-size:.85rem}
+footer strong{color:#fff;display:block;margin-bottom:6px;font-size:.95rem}
+footer a{color:var(--teal)}
+.fin{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);font-size:.78rem;line-height:1.6}
+
+@media (max-width:600px){
+  .card{padding:17px 16px}
+  .meta a,.meta span{font-size:.83rem;padding:6px 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html">БЕЗ ЗАЛОГ<span>bezalog.bg</span></a>
+    <a class="back" href="index.html">Към сайта</a>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Потърси помощ</span>
+    <h1>Къде да потърсиш помощ</h1>
+    <p>Не е нужно да си решил да спреш. Не ти трябва план. Достатъчно е да кажеш на един човек — а ако няма на кого, тук има места, където отговарят хора.</p>
+  </div>
+</div>
+
+<div class="line">
+  <div class="line-in">
+    <div class="lbl">Национална информационна линия</div>
+    <a class="num" href="tel:0888991866">0888 99 18 66</a>
+    <div class="meta">Въпроси за зависимости от 9 до 17 всеки делничен ден. Цената е според тарифния план на абоната. Има и <a href="http://dchat.drugsinfo-bg.org/client.php?locale=bg" target="_blank" rel="noopener">анонимен чат</a>.</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="intro">
+    <h2>Какво е bezalog.bg</h2>
+    <p>bezalog.bg е национална кампания за превенция на хазартна зависимост сред млади хора между 15 и 29 години. Правим я, защото за хазарта почти не се говори на глас, а се случва на много хора около нас — и защото повечето от тях дълго време не знаят къде да отидат.</p>
+    <p>Тук ще намериш анонимен тест, обяснения как работи хазартът, видеа, подкаст и материали за родители и учители. Всичко е безплатно, без регистрация и без име. Нямаме реклами, не продаваме нищо и не сме свързани нито с хазартния бранш, нито с платено лечение.</p>
+    <p class="strong">Това, което правим, не замества медицинска или психологическа помощ. Не поставяме диагнози и не лекуваме. Ако имаш съмнение за себе си или за близък човек, говори със специалист — на тази страница сме събрали местата, откъдето можеш да започнеш.</p>
+    <p>Прегледахме публичните регистри, справочниците на общините, сайтовете на лечебните заведения и Националната информационна линия, за да съберем на едно място местата в страната, където се работи със зависимости. Информацията е разпръсната из десетки източници — тук е подредена по градове, с адреси и телефони, за да не я търсиш сам.</p>
+  </div>
+
+
+  <div class="map">
+    <h2>Места в страната</h2>
+    <p class="map-sub">Докосни град, за да стигнеш до контактите му. Картата е схематична.</p>
+    <svg viewBox="0 0 900 578" role="img" aria-label="Схематична карта на България с градовете, в които има места за помощ">
+      <path class="bg-out" d="M 79.4,40.9 L 125.9,69.7 L 210.5,79.3 L 280.9,88.9 L 365.5,94.6 L 435.9,113.8 L 506.4,94.6 L 562.7,40.9 L 647.3,16.0 L 703.6,17.9 L 760.0,37.1 L 802.3,69.7 L 884.0,88.9 L 879.8,152.1 L 847.4,159.8 L 823.4,194.3 L 802.3,236.5 L 788.2,290.2 L 762.8,319.0 L 750.1,343.9 L 781.1,366.9 L 802.3,405.3 L 805.1,428.3 L 738.9,439.8 L 689.5,414.8 L 633.2,428.3 L 598.0,458.9 L 565.5,478.1 L 541.6,535.6 L 499.3,554.8 L 443.0,562.5 L 393.6,554.8 L 337.3,535.6 L 280.9,516.5 L 224.5,535.6 L 175.2,543.3 L 125.9,554.8 L 94.9,535.6 L 80.8,478.1 L 97.7,414.8 L 62.5,382.2 L 16.0,363.1 L 34.3,313.2 L 16.0,261.4 L 58.3,198.2 L 34.3,152.1 L 52.6,75.4 Z"/>
+      <a href="#sofia"><circle cx="142.8" cy="290.2" r="9"/><text x="142.8" y="274.2">София</text></a>
+      <a href="#plovdiv"><circle cx="344.3" cy="397.6" r="9"/><text x="344.3" y="381.6">Пловдив</text></a>
+      <a href="#varna"><circle cx="791.0" cy="192.4" r="9"/><text x="791.0" y="176.4">Варна</text></a>
+      <a href="#burgas"><circle cx="727.6" cy="326.6" r="9"/><text x="727.6" y="360.6">Бургас</text></a>
+      <a href="#ruse"><circle cx="516.2" cy="69.7" r="9"/><text x="516.2" y="53.7">Русе</text></a>
+      <a href="#stz"><circle cx="469.7" cy="342.0" r="9"/><text x="469.7" y="326.0">Ст. Загора</text></a>
+      <a href="#vt"><circle cx="468.3" cy="217.3" r="9"/><text x="468.3" y="201.3">В. Търново</text></a>
+      <a href="#blg"><circle cx="110.4" cy="420.6" r="9"/><text x="110.4" y="404.6">Благоевград</text></a>
+      <a href="#haskovo"><circle cx="458.5" cy="437.9" r="9"/><text x="458.5" y="471.9">Хасково</text></a>
+      <a href="#kardzhali"><circle cx="431.7" cy="491.5" r="9"/><text x="431.7" y="525.5">Кърджали</text></a>
+    </svg>
+  </div>
+
+  <div class="note">
+    <h2>Преди да продължиш</h2>
+    <p>Списъкът е информационен и не е препоръка. Организациите не са проверявани или одобрявани от проекта и не са наши партньори. Условията и цените се уточняват директно с всяко място. Данните са към август 2026 г. — телефони, адреси и часове се променят, затова се обади предварително.</p>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2>Групи за взаимопомощ</h2>
+    </div>
+    <p class="sec-sub">Анонимни комарджии — единственото условие за участие е желанието да спреш. Не се иска име, документ или направление.</p>
+
+    <div class="card">
+      <span class="city" id="sofia">София</span>
+      <h3>Група „Ново начало"</h3>
+      <ul>
+        <li>Понеделник, 19:00 — ул. „Г. С. Раковски" 86</li>
+        <li>Четвъртък, 19:00 — Католическа църква „Св. Йосиф", ул. „Княз Борис I" 146, Пасторален център, стая 2</li>
+        <li>Събота, 16:00 — на същия адрес</li>
+      </ul>
+      <p>Входът за помещението е от лявата страна на катедралата, по стълбите надолу. До метростанция „Сердика".</p>
+      <div class="meta">
+        <a href="tel:0882512651">0882 51 26 51</a>
+        <a href="https://anonimnikomardjii.com/" target="_blank" rel="noopener">anonimnikomardjii.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="plovdiv">Пловдив</span>
+      <h3>Анонимни хазартно зависими</h3>
+      <ul>
+        <li>Всеки четвъртък, 19:00</li>
+      </ul>
+      <div class="meta">
+        <span class="addr">ул. „Капитан Райчо" 56, ТЦ „Гранд", ет. 4, офис 18</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="vt">Велико Търново</span>
+      <h3>Анонимни хазартно зависими</h3>
+      <ul>
+        <li>Всяка сряда, 20:00</li>
+      </ul>
+      <div class="meta">
+        <a href="tel:0883306333">0883 306 333</a>
+        <span class="addr">ул. „Мармарлийска" 35</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">Онлайн</span>
+      <h3>Група „Чисто време"</h3>
+      <ul>
+        <li>Сряда, 20:00</li>
+        <li>Петък, 20:00</li>
+        <li>Неделя, 17:00</li>
+      </ul>
+      <p>Провежда се в Discord. Линкът е през сайта на Анонимни комарджии.</p>
+      <div class="meta">
+        <a href="tel:0882512651">0882 51 26 51</a>
+        <a href="mailto:chistovreme@gmail.com">chistovreme@gmail.com</a>
+        <a href="https://anonimnikomardjii.com/" target="_blank" rel="noopener">anonimnikomardjii.com</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Консултиране при хазартна зависимост</h2>
+    </div>
+    <p class="sec-sub">Организацията, която поддържа националната линия, има и отделен център, насочен точно към хазартна зависимост.</p>
+
+    <div class="card">
+      <h3>Център за хазартна зависимост „Солидарност"</h3>
+      <p>Индивидуално и групово консултиране на хора със зависимост към хазарт. Част от Асоциация „Солидарност", която поддържа и националната информационна линия.</p>
+      <div class="meta">
+        <a href="tel:0888991866">0888 99 18 66</a>
+        <a href="https://hazart-terapia.com/" target="_blank" rel="noopener">hazart-terapia.com</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Държавни центрове за психично здраве</h2>
+    </div>
+    
+    <div class="card">
+      <span class="city">Пловдив</span>
+      <h3>ЦПЗ Пловдив</h3>
+      <p>Прегледите и лечението са безплатни независимо от осигурителния статус и без направление от личен лекар. Достъпът за консултации е денонощен.</p>
+      <div class="meta">
+        <a href="tel:032642376">032 642 376</a>
+        <span class="addr">бул. „Пещерско шосе" 68</span>
+        <a href="https://cpz-plovdiv.com/" target="_blank" rel="noopener">cpz-plovdiv.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">София</span>
+      <h3>ЦПЗ „Проф. Никола Шипковенски"</h3>
+      <div class="meta">
+        <a href="tel:029399038">02 939 90 38</a>
+        <a href="tel:029810006">02 981 00 06</a>
+        <span class="addr">ул. „Екзарх Йосиф" 59</span>
+        <a href="https://cpz-ns.com/" target="_blank" rel="noopener">cpz-ns.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">София област</span>
+      <h3>ЦПЗ София област</h3>
+      <div class="meta">
+        <a href="tel:028319059">02 831 90 59</a>
+        <span class="addr">бул. „Сливница" 309</span>
+        <a href="https://www.cpz-sofia.com/" target="_blank" rel="noopener">cpz-sofia.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="burgas">Бургас</span>
+      <h3>ЦПЗ „Проф. д-р Иван Темков"</h3>
+      <p>Има отделение за зависимости.</p>
+      <div class="meta">
+        <a href="https://cpz-burgas.bg/" target="_blank" rel="noopener">cpz-burgas.bg</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="varna-cpz">Варна</span>
+      <h3>ЦПЗ Варна</h3>
+      <p>Създаден през 1994 г. с основен приоритет профилактика и лечение на зависимости. Общинско лечебно заведение за извънболнична помощ — диагностика и извънболнично лечение на наркомании и алкохолизъм, с рехабилитационна програма за лица със зависимост.</p>
+      <div class="meta">
+        <span class="addr">бул. „Цар Освободител" 100, в двора на МБАЛ „Св. Анна"</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="ruse">Русе</span>
+      <h3>ЦПЗ Русе</h3>
+      <p>Има отделно Отделение за лечение на зависимости.</p>
+      <div class="meta">
+        <a href="tel:082845356">082 845 356</a>
+        <a href="https://cpz-rs.org/kontakti/" target="_blank" rel="noopener">cpz-rs.org</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="stz">Стара Загора</span>
+      <h3>ЦПЗ Стара Загора</h3>
+      <p>Психотерапия и психо-социална рехабилитация, спешна психиатрична помощ, консултации.</p>
+      <div class="meta">
+        <a href="tel:042620250">042 620 250</a>
+        <span class="addr">ул. „Армейска" 16</span>
+        <a href="https://www.cpzstz.com/" target="_blank" rel="noopener">cpzstz.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="blg">Благоевград</span>
+      <h3>ЦПЗ Благоевград</h3>
+      <div class="meta">
+        <a href="tel:073884138">073 88 41 38</a>
+        <span class="addr">Приемно-диагностично звено: ул. „Григор Пърличев" 40</span>
+        <a href="https://cpz-bl.com/contacts/" target="_blank" rel="noopener">cpz-bl.com</a>
+      </div>
+      <p>Приемно-диагностичното звено работи всеки делничен ден от 7:30 до 14:30.</p>
+    </div>
+
+    <div class="card">
+      <span class="city" id="haskovo">Хасково</span>
+      <h3>ЦПЗ Хасково</h3>
+      <p>Приемно-диагностично звено, отделения с легла и дневен стационар.</p>
+      <div class="meta">
+        <a href="tel:038668497">038 668 497</a>
+        <a href="mailto:odpzs-hs@breza.net">odpzs-hs@breza.net</a>
+        <span class="addr">кв. „Болярово", ул. „Перущица" 2</span>
+        <a href="https://cpz.pamicom.net/" target="_blank" rel="noopener">cpz.pamicom.net</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="kardzhali">Кърджали</span>
+      <h3>ЦПЗ Кърджали</h3>
+      <div class="meta">
+        <span class="addr">ул. „Добрич" 44</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city" id="vt-cpz">Велико Търново</span>
+      <h3>ЦПЗ Велико Търново</h3>
+      <p>Има консултативно-терапевтичен кабинет за пациенти със зависимости и дневен център за рехабилитация на зависимости.</p>
+      <div class="meta">
+        <a href="tel:062625697">062 625 697</a>
+        <a href="tel:0878600897">0878 600 897</a>
+        <a href="mailto:cpzvt@abv.bg">cpzvt@abv.bg</a>
+        <span class="addr">ул. „Бузлуджа" 1</span>
+        <a href="https://tcentarpzvt.com/" target="_blank" rel="noopener">tcentarpzvt.com</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Частни центрове</h2>
+    </div>
+    <p class="sec-sub">Резидентни програми, в които човек живее в центъра по време на лечението. Условията и цените се уточняват директно с всеки център.</p>
+
+    <div class="card">
+      <span class="city" id="varna">София и Варна</span>
+      <h3>„Промяната е живот"</h3>
+      <p>Програма за лечение на алкохолна, наркотична, хазартна и дигитална зависимост при резидентни условия. Три центъра — два в София и един във Варна. Вторият център в София е специализиран за непълнолетни.</p>
+      <div class="meta">
+        <a href="tel:0879321666">0879 321 666</a>
+        <a href="mailto:office@changeislife.bg">office@changeislife.bg</a>
+        <a href="https://changeislife.bg/" target="_blank" rel="noopener">changeislife.bg</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">Варна</span>
+      <h3>Рехабилитационен център „Ренесанс"</h3>
+      <p>Резидентен център за мъже и жени със зависимост от психоактивни вещества, алкохол, хазарт и интернет. Включва стационарно лечение за преодоляване на хазартна зависимост.</p>
+      <div class="meta">
+        <a href="tel:052356254">052 356 254</a>
+        <a href="tel:0898620661">0898 620 661</a>
+        <span class="addr">ул. „Средна трака"</span>
+        <a href="http://ren.bg/" target="_blank" rel="noopener">ren.bg</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">Област Пловдив</span>
+      <h3>Център „Пробуждане"</h3>
+      <p>Резидентна програма с групова терапия, индивидуални срещи с консултант и психотерапевт, запознаване с 12-стъпковата програма и консултиране на близки.</p>
+      <div class="meta">
+        <a href="tel:0896568081">0896 56 80 81</a>
+        <a href="mailto:info@centerpbd.com">info@centerpbd.com</a>
+        <span class="addr">с. Белащица, ул. „Родопи" 70</span>
+        <a href="https://centerpbd.com/" target="_blank" rel="noopener">centerpbd.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">София</span>
+      <h3>Център „Алтера Вида"</h3>
+      <p>Специализиран в лечението на зависимости резидентен център.</p>
+      <div class="meta">
+        <a href="tel:0878871003">0878 871 003</a>
+        <a href="mailto:info@alteravida.com">info@alteravida.com</a>
+        <span class="addr">кв. „Драгалевци", ул. „Ябълкова градина" 50</span>
+        <a href="https://alteravida.com/" target="_blank" rel="noopener">alteravida.com</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="city">София</span>
+      <h3>Център „Отвори очи"</h3>
+      <p>Терапевтичен център за лечение на зависимости, включително хазарт. Терапевтична общност с психосоциална рехабилитация и дневни групи за взаимопомощ.</p>
+      <div class="meta">
+        <a href="tel:0899982435">0899 982 435</a>
+        <a href="mailto:info@otvoriochi.org">info@otvoriochi.org</a>
+        <a href="https://otvoriochi.org/" target="_blank" rel="noopener">otvoriochi.org</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="note">
+    <h2>Знаеш място, което липсва?</h2>
+    <p>Пиши ни на <a href="mailto:pitam@bezalog.bg">pitam@bezalog.bg</a> и ще го добавим. Ако намериш телефон или адрес, който вече не е актуален, също ни кажи.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <strong>БЕЗ ЗАЛОГ — Твоят живот, твоят избор</strong>
+    Национална дигитална кампания за превенция на хазартна зависимост сред млади хора 15-29 г. в България.<br>
+    Още материали на <a href="index.html">bezalog.bg</a> · Въпроси на <a href="mailto:pitam@bezalog.bg">pitam@bezalog.bg</a>
+    <div class="fin">
+      Проект „БЕЗ ЗАЛОГ — Твоят живот, твоят избор" на Сдружение за младежка интеграция „Вивонда".<br>
+      Национална програма за превенция и информираност (2026-2030), финансирана от Министерството на младежта и спорта.<br>
+      НППИ-ТО1-022/2026 · Година на изпълнение: 2026
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
