@@ -625,8 +625,8 @@ const ARCHIVE_ITEMS = [
     thumb: 'images/archive/web/banner-google-search.jpg',
     type: 'Google Ads',
     typeColor: '#4285F4'
-  }
-  
+  },
+
   {
     cat: 'qna',
     title: 'Какво мислят младите за хазарта?',
