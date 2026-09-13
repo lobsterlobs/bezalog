@@ -627,12 +627,30 @@ const ARCHIVE_ITEMS = [
     typeColor: '#4285F4'
   }
   
+  {
+    cat: 'qna',
+    title: 'Какво мислят младите за хазарта?',
+    desc: 'Улична Q&A сесия — млади хора отговарят на въпроси за залагането и споделят своята гледна точка',
+    thumb: 'images/archive/web/qna-mladite-poster.jpg',
+    video: 'images/archive/video/qna-mladite.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'qna',
+    title: 'Задай въпрос към психолог',
+    desc: 'Изпрати своя въпрос анонимно на pitam@bezalog.bg — отговорите ще бъдат включени в подкаста',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/qna-psiholog.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
 
 // Placeholder карти за категории, които още не са напълно готови.
 // Без бройки в текста — само име на секцията + бележка.
 const ARCHIVE_PLACEHOLDERS = [
-  { cat: 'podcast', label: 'Подкаст', count: '', note: 'Очаквайте скоро' },
-  { cat: 'qna',     label: 'Q&A сесии', count: '', note: 'Очаквайте скоро' }
+  { cat: 'podcast', label: 'Подкаст', count: '', note: 'Очаквайте скоро' }
 ];
