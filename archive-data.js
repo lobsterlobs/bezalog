@@ -645,6 +645,60 @@ const ARCHIVE_ITEMS = [
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },
+  {
+    cat: 'visii',
+    title: 'Резултатът от теста достатъчен ли е за диагноза?',
+    desc: 'Q&A визия — резултатът е ориентир, не медицинска диагноза',
+    thumb: 'images/archive/social/qa_11-test-rezultat.png',
+    full: 'images/archive/social/qa_11-test-rezultat.png',
+    type: 'Визия — Q&A',
+    typeColor: 'var(--yellow)'
+  },
+  {
+    cat: 'visii',
+    title: 'Хазартната зависимост наследствена ли е?',
+    desc: 'Q&A визия — наследствена предразположеност и влияние на средата',
+    thumb: 'images/archive/social/qa_12-nasledstveno.png',
+    full: 'images/archive/social/qa_12-nasledstveno.png',
+    type: 'Визия — Q&A',
+    typeColor: 'var(--yellow)'
+  },
+  {
+    cat: 'visii',
+    title: 'Как да разбера дали партньорът ми крие хазарт?',
+    desc: 'Q&A визия — признаци, по които близък човек може да разпознае проблем',
+    thumb: 'images/archive/social/qa_13-partnyor-krie.png',
+    full: 'images/archive/social/qa_13-partnyor-krie.png',
+    type: 'Визия — Q&A',
+    typeColor: 'var(--yellow)'
+  },
+  {
+    cat: 'visii',
+    title: 'Мога ли да блокирам хазартните приложения?',
+    desc: 'Q&A визия — технически бариери и доброволно ограничаване на достъпа',
+    thumb: 'images/archive/social/qa_14-prilozhenia-blokirane.png',
+    full: 'images/archive/social/qa_14-prilozhenia-blokirane.png',
+    type: 'Визия — Q&A',
+    typeColor: 'var(--yellow)'
+  },
+  {
+    cat: 'visii',
+    title: 'Малки суми всеки ден опасни ли са?',
+    desc: 'Q&A визия — честотата на залагане е по-важна от размера на отделния залог',
+    thumb: 'images/archive/social/qa_15-malki-sumi.png',
+    full: 'images/archive/social/qa_15-malki-sumi.png',
+    type: 'Визия — Q&A',
+    typeColor: 'var(--yellow)'
+  },
+  {
+    cat: 'visii',
+    title: 'Как да кажа на близките си, че искам да спра?',
+    desc: 'Q&A визия — как да започнеш разговор и да потърсиш подкрепа',
+    thumb: 'images/archive/social/qa_16-kak-da-spra.png',
+    full: 'images/archive/social/qa_16-kak-da-spra.png',
+    type: 'Визия — Q&A',
+    typeColor: 'var(--yellow)'
+  },
 
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
