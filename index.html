@@ -246,6 +246,15 @@ h2.section-title{font-family:"Montserrat",sans-serif;font-size:clamp(26px,4vw,42
 .podcast-inner{max-width:1100px;margin:0 auto;}
 .podcast-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px;}
 .podcast-coming{background:rgba(0,194,168,0.08);border:1px dashed rgba(0,194,168,0.3);border-radius:var(--radius);padding:24px;text-align:center;color:var(--teal);font-size:13px;font-weight:500;}
+.podcast-episode{grid-column:1/-1;display:grid;grid-template-columns:minmax(240px,320px) 1fr;background:var(--navy);border-radius:24px;overflow:hidden;box-shadow:var(--shadow-lg);}
+.podcast-episode-cover{aspect-ratio:1;background:#0D2137;}
+.podcast-episode-cover img{display:block;width:100%;height:100%;object-fit:cover;}
+.podcast-episode-info{padding:38px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;}
+.podcast-episode-kicker{display:inline-block;margin-bottom:12px;padding:5px 12px;border-radius:100px;background:rgba(0,194,168,.16);color:var(--teal);font-size:10px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;}
+.podcast-episode h3{font-family:"Montserrat",sans-serif;font-size:clamp(22px,3vw,32px);line-height:1.25;color:white;margin-bottom:12px;}
+.podcast-episode p{max-width:610px;color:rgba(255,255,255,.62);font-size:14px;line-height:1.75;}
+.podcast-episode .podcast-platform-link{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);}
+.podcast-episode .podcast-platform-link:first-child{background:var(--teal);border-color:var(--teal);}
 
 /* STORIES */
 .stories-section{padding:96px 48px;background:var(--navy);}
@@ -346,6 +355,9 @@ footer{background:var(--navy);color:white;padding:72px 48px 32px;}
   .signs-grid{grid-template-columns:repeat(2,1fr)!important;}
   .about-grid-3,.about-grid-2{grid-template-columns:1fr!important;}
   .footer-bottom{flex-direction:column;align-items:flex-start;}
+  .podcast-episode{grid-template-columns:1fr;}
+  .podcast-episode-cover{max-height:520px;}
+  .podcast-episode-info{padding:28px 24px 32px;}
 }
 @media(max-width:520px){
   .signs-grid{grid-template-columns:1fr!important;}
@@ -846,9 +858,19 @@ footer{background:var(--navy);color:white;padding:72px 48px 32px;}
       <h2 class="section-title">БЕЗ ЗАЛОГ Подкаст</h2>
       <p class="section-desc">Разговори с психолози, млади хора и преживели зависимост. Слушай когато искаш, откъдето искаш.</p>
       <div class="podcast-grid">
-        <div class="podcast-coming">Епизодите<br>очаквайте скоро</div>
-        <div class="podcast-coming">Епизодите<br>очаквайте скоро</div>
-        <div class="podcast-coming">Епизодите<br>очаквайте скоро</div>
+        <article class="podcast-episode">
+          <div class="podcast-episode-cover"><img src="images/archive/podcast/podcast-ep1.png" alt="Обложка на БЕЗ ЗАЛОГ — Епизод 1"></div>
+          <div class="podcast-episode-info">
+            <div class="podcast-episode-kicker">Нов епизод · 25 мин.</div>
+            <h3>Епизод 1: Защо тази програма съществува</h3>
+            <p>Ивайло и Диана обясняват какво е „БЕЗ ЗАЛОГ“, кой го финансира и защо хазартната зависимост е болест на мозъка, а не на характера.</p>
+            <div class="podcast-platforms">
+              <a class="podcast-platform-link" href="https://www.youtube.com/watch?v=Ueoz63EtT1Q" target="_blank" rel="noopener noreferrer">YouTube</a>
+              <a class="podcast-platform-link" href="https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt" target="_blank" rel="noopener noreferrer">Spotify</a>
+              <a class="podcast-platform-link" href="https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </div>
