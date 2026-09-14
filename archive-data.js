@@ -700,11 +700,24 @@ const ARCHIVE_ITEMS = [
     typeColor: 'var(--yellow)'
   },
 
+  // ---------------- ПОДКАСТ ----------------
+  {
+    cat: 'podcast',
+    title: 'Епизод 1: Защо тази програма съществува',
+    desc: 'Ивайло и Диана обясняват какво е „БЕЗ ЗАЛОГ“, кой го финансира и защо хазартната зависимост е болест на мозъка, а не на характера.',
+    thumb: 'images/archive/podcast/podcast-ep1.png',
+    type: 'Подкаст · Епизод 1',
+    typeColor: 'var(--teal)',
+    platforms: [
+      { label: 'YouTube', url: 'https://www.youtube.com/watch?v=Ueoz63EtT1Q' },
+      { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+    ]
+  },
+
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
 
 // Placeholder карти за категории, които още не са напълно готови.
 // Без бройки в текста — само име на секцията + бележка.
-const ARCHIVE_PLACEHOLDERS = [
-  { cat: 'podcast', label: 'Подкаст', count: '', note: 'Очаквайте скоро' }
-];
+const ARCHIVE_PLACEHOLDERS = [];
