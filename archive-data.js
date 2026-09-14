@@ -743,28 +743,42 @@ const ARCHIVE_ITEMS = [
 
   {
     cat: 'podcast',
-    title: 'Епизод 4',
-    desc: 'Четвъртият епизод на подкаста „БЕЗ ЗАЛОГ“ — разговор за хазарта, зависимостта и пътя към помощта.',
+    title: 'Епизод 4: Иван',
+    desc: 'Личната история на Иван — млад мъж, преживял хазартна зависимост. Какво го е довело до залаганията и какъв е бил пътят му към справянето.',
     thumb: 'images/archive/podcast/podcast-ep4.png',
-    type: 'Подкаст · Епизод 4',
+    type: 'Подкаст · Епизод 4 · 21 мин.',
     typeColor: 'var(--teal)',
     platforms: [
-      { label: 'YouTube', url: 'https://www.youtube.com/channel/UCckm8M4_dsqd_iaRA1ZuoJQ' },
-      { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
+      { label: 'YouTube', url: 'https://www.youtube.com/watch?v=PvKnTqKXSCI' },
+      { label: 'Spotify', url: 'https://podcasters.spotify.com/pod/show/-762143/episodes/4-e3or5l3' },
       { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
 
   {
     cat: 'podcast',
-    title: 'Епизод 5',
-    desc: 'Петият епизод на подкаста „БЕЗ ЗАЛОГ“ — откровен разговор за хазарта, зависимостта и възможните стъпки към промяна.',
+    title: 'Епизод 5: Още съм вътре',
+    desc: 'Мартин, 18-годишен и все още активно залагащ, разказва анонимно за пътя си, първото търсене на помощ и вечерта на своя бал.',
     thumb: 'images/archive/podcast/podcast-ep5.png',
-    type: 'Подкаст · Епизод 5',
+    type: 'Подкаст · Епизод 5 · 22 мин.',
     typeColor: 'var(--teal)',
     platforms: [
-      { label: 'YouTube', url: 'https://www.youtube.com/channel/UCckm8M4_dsqd_iaRA1ZuoJQ' },
-      { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
+      { label: 'YouTube', url: 'https://www.youtube.com/watch?v=9hUw6diFI54' },
+      { label: 'Spotify', url: 'https://podcasters.spotify.com/pod/show/-762143/episodes/5-e3orb0g' },
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+    ]
+  },
+
+  {
+    cat: 'podcast',
+    title: 'Епизод 6: Вие питате',
+    desc: 'Ивайло Гогов чете въпросите, зададени на улицата и по имейл, а психологът Диана Кралева отговаря директно — без заобикалки.',
+    thumb: 'images/archive/podcast/podcast-ep6.png',
+    type: 'Подкаст · Епизод 6 · 17 мин.',
+    typeColor: 'var(--teal)',
+    platforms: [
+      { label: 'YouTube', url: 'https://www.youtube.com/watch?v=LBRGjyMsxwc' },
+      { label: 'Spotify', url: 'https://podcasters.spotify.com/pod/show/-762143/episodes/6-e3ormck' },
       { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
