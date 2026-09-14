@@ -722,6 +722,7 @@ const ARCHIVE_ITEMS = [
     type: 'Подкаст · Епизод 2 · 20 мин.',
     typeColor: 'var(--teal)',
     platforms: [
+      { label: 'YouTube', url: 'https://www.youtube.com/watch?v=UguXDaRigJ0' },
       { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
       { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
