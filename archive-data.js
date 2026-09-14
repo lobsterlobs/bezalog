@@ -714,6 +714,18 @@ const ARCHIVE_ITEMS = [
       { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
+  {
+    cat: 'podcast',
+    title: 'Епизод 2: Шестте изречения, които си казваме',
+    desc: 'За най-честите мисли и оправдания, с които младите хора подхранват хазартната зависимост, и за разликата между мит и факт.',
+    thumb: 'images/archive/podcast/podcast-ep2.png',
+    type: 'Подкаст · Епизод 2 · 20 мин.',
+    typeColor: 'var(--teal)',
+    platforms: [
+      { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+    ]
+  },
 
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
