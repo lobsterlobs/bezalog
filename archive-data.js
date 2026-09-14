@@ -741,6 +741,20 @@ const ARCHIVE_ITEMS = [
     ]
   },
 
+  {
+    cat: 'podcast',
+    title: 'Епизод 4',
+    desc: 'Четвъртият епизод на подкаста „БЕЗ ЗАЛОГ“ — разговор за хазарта, зависимостта и пътя към помощта.',
+    thumb: 'images/archive/podcast/podcast-ep4.png',
+    type: 'Подкаст · Епизод 4',
+    typeColor: 'var(--teal)',
+    platforms: [
+      { label: 'YouTube', url: 'https://www.youtube.com/channel/UCckm8M4_dsqd_iaRA1ZuoJQ' },
+      { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+    ]
+  },
+
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
 
