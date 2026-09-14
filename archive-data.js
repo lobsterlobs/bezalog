@@ -727,6 +727,19 @@ const ARCHIVE_ITEMS = [
       { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
+  {
+    cat: 'podcast',
+    title: 'Епизод 3: Казиното в джоба',
+    desc: 'Как телефонът направи хазарта постоянно достъпен, защо младите хора са уязвими и как родителите да разпознаят тревожните признаци.',
+    thumb: 'images/archive/podcast/podcast-ep3.png',
+    type: 'Подкаст · Епизод 3 · 16 мин.',
+    typeColor: 'var(--teal)',
+    platforms: [
+      { label: 'YouTube', url: 'https://www.youtube.com/watch?v=03_CTgL_oGA' },
+      { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+    ]
+  },
 
   // ⬇ добавяй нови готови материали тук, по същия образец
 ];
