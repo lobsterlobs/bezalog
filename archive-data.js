@@ -444,8 +444,7 @@ const ARCHIVE_ITEMS = [
     video: 'images/archive/video/story-phone.mp4',
     type: 'Story',
     typeColor: 'var(--teal)'
-  }
-,
+  },
   {
     cat: 'story',
     title: 'Скрит дълг',
@@ -482,7 +481,16 @@ const ARCHIVE_ITEMS = [
     type: 'Story',
     typeColor: 'var(--teal)'
   },
-{
+  {
+    cat: 'story',
+    title: 'Гласът на улицата',
+    desc: 'Кратък Story клип от уличните интервюта на БЕЗ ЗАЛОГ',
+    thumb: 'images/archive/web/qna-mladite-poster.jpg',
+    video: 'images/archive/video/BEZALOG_street_photo_mix_music(1).mp4',
+    type: 'Story',
+    typeColor: 'var(--teal)'
+  },
+  {
     cat: 'banner',
     title: 'Instagram — лого БЕЗ ЗАЛОГ',
     desc: 'Платено рекламно разположение в Instagram, 15-17.07.2026 г. <a href="https://www.facebook.com/ads/library/?id=1458153403024937" target="_blank" rel="noopener">Виж в Meta Библиотека с реклами</a>',
