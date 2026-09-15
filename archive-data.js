@@ -719,7 +719,7 @@ const ARCHIVE_ITEMS = [
     title: 'Епизод 2: Шестте изречения, които си казваме',
     desc: 'За най-честите мисли и оправдания, с които младите хора подхранват хазартната зависимост, и за разликата между мит и факт.',
     thumb: 'images/archive/podcast/podcast-ep2.png',
-    type: 'Подкаст · Епизод 2 · 20 мин.',
+    type: 'Подкаст · Епизод 2',
     typeColor: 'var(--teal)',
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=UguXDaRigJ0' },
@@ -732,7 +732,7 @@ const ARCHIVE_ITEMS = [
     title: 'Епизод 3: Казиното в джоба',
     desc: 'Как телефонът направи хазарта постоянно достъпен, защо младите хора са уязвими и как родителите да разпознаят тревожните признаци.',
     thumb: 'images/archive/podcast/podcast-ep3.png',
-    type: 'Подкаст · Епизод 3 · 16 мин.',
+    type: 'Подкаст · Епизод 3',
     typeColor: 'var(--teal)',
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=03_CTgL_oGA' },
@@ -746,7 +746,7 @@ const ARCHIVE_ITEMS = [
     title: 'Епизод 4: Иван',
     desc: 'Личната история на Иван — млад мъж, преживял хазартна зависимост. Какво го е довело до залаганията и какъв е бил пътят му към справянето.',
     thumb: 'images/archive/podcast/podcast-ep4.png',
-    type: 'Подкаст · Епизод 4 · 21 мин.',
+    type: 'Подкаст · Епизод 4',
     typeColor: 'var(--teal)',
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=PvKnTqKXSCI' },
@@ -760,7 +760,7 @@ const ARCHIVE_ITEMS = [
     title: 'Епизод 5: Още съм вътре',
     desc: 'Мартин, 18-годишен и все още активно залагащ, разказва анонимно за пътя си, първото търсене на помощ и вечерта на своя бал.',
     thumb: 'images/archive/podcast/podcast-ep5.png',
-    type: 'Подкаст · Епизод 5 · 22 мин.',
+    type: 'Подкаст · Епизод 5',
     typeColor: 'var(--teal)',
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=9hUw6diFI54' },
@@ -774,7 +774,7 @@ const ARCHIVE_ITEMS = [
     title: 'Епизод 6: Вие питате',
     desc: 'Ивайло Гогов чете въпросите, зададени на улицата и по имейл, а психологът Диана Кралева отговаря директно — без заобикалки.',
     thumb: 'images/archive/podcast/podcast-ep6.png',
-    type: 'Подкаст · Епизод 6 · 17 мин.',
+    type: 'Подкаст · Епизод 6',
     typeColor: 'var(--teal)',
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=LBRGjyMsxwc' },
