@@ -663,6 +663,15 @@ const ARCHIVE_ITEMS = [
     typeColor: 'var(--teal)'
   },
   {
+    cat: 'qna',
+    title: 'Q&A Сесия 02: Защо се случва?',
+    desc: 'Психологът Диана Кралева отговаря на 6 въпроса за причините зад залагането, навика, вечерното напрежение, гоненето на загуби, усещането за контрол и безплатните версии.',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/BEZ_ZALOG_QA_Session_02_vertical.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
     cat: 'visii',
     title: 'Резултатът от теста достатъчен ли е за диагноза?',
     desc: 'Q&A визия — резултатът е ориентир, не медицинска диагноза',
