@@ -654,6 +654,15 @@ const ARCHIVE_ITEMS = [
     typeColor: 'var(--teal)'
   },
   {
+    cat: 'qna',
+    title: 'Q&A Сесия 01: Дали при мен вече е проблем?',
+    desc: 'Психологът Диана Кралева отговаря на 6 въпроса за ранните сигнали, малките суми, честотата на залагане, резултата от теста, скрития проблем и момента, в който е време да се потърси специалист.',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/BEZ_ZALOG_QA_Session_01.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
     cat: 'visii',
     title: 'Резултатът от теста достатъчен ли е за диагноза?',
     desc: 'Q&A визия — резултатът е ориентир, не медицинска диагноза',
@@ -732,7 +741,7 @@ const ARCHIVE_ITEMS = [
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=UguXDaRigJ0' },
       { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
-      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
   {
@@ -745,7 +754,7 @@ const ARCHIVE_ITEMS = [
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=03_CTgL_oGA' },
       { label: 'Spotify', url: 'https://open.spotify.com/show/0KPQstEAHNmqV0CaVSw7lt' },
-      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
 
@@ -759,7 +768,7 @@ const ARCHIVE_ITEMS = [
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=PvKnTqKXSCI' },
       { label: 'Spotify', url: 'https://podcasters.spotify.com/pod/show/-762143/episodes/4-e3or5l3' },
-      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
 
@@ -773,7 +782,7 @@ const ARCHIVE_ITEMS = [
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=9hUw6diFI54' },
       { label: 'Spotify', url: 'https://podcasters.spotify.com/pod/show/-762143/episodes/5-e3orb0g' },
-      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
 
@@ -787,7 +796,7 @@ const ARCHIVE_ITEMS = [
     platforms: [
       { label: 'YouTube', url: 'https://www.youtube.com/watch?v=LBRGjyMsxwc' },
       { label: 'Spotify', url: 'https://podcasters.spotify.com/pod/show/-762143/episodes/6-e3ormck' },
-      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
+      { label: 'Apple Podcasts', url: 'https://podcasts.apple.com/us/podcast/%D0%B1%D0%B5%D0%B7-%D0%B0%D0%BB%D0%BE%D0%B3/id6811751015' }
     ]
   },
 
