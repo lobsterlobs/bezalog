@@ -672,6 +672,33 @@ const ARCHIVE_ITEMS = [
     typeColor: 'var(--teal)'
   },
   {
+    cat: 'qna',
+    title: 'Q&A Сесия 03: Как да помогна на близък?',
+    desc: 'Психологът Диана Кралева отговаря на 3 въпроса: как да говориш с приятел, който залага, дали да платиш дълга на детето си и дали проверяването на телефона помага.',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/BEZ_ZALOG_QA_Session_03_vertical.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'qna',
+    title: 'Q&A Сесия 04: Семейство, партньор и доверие',
+    desc: 'Психологът Диана Кралева отговаря на 3 въпроса за честния разговор, семейните финанси и какво може да направи дете, когато родител залага.',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/BEZ_ZALOG_QA_Session_04_vertical.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
+    cat: 'qna',
+    title: 'Q&A Сесия 05: Спиране и възстановяване',
+    desc: 'Психологът Диана Кралева отговаря на 6 въпроса за лечението, връщането към залозите, рецидива, разговора с работодател и блокиращите приложения.',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/BEZ_ZALOG_QA_Session_05_vertical.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
     cat: 'visii',
     title: 'Резултатът от теста достатъчен ли е за диагноза?',
     desc: 'Q&A визия — резултатът е ориентир, не медицинска диагноза',
