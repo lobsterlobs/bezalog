@@ -699,6 +699,15 @@ const ARCHIVE_ITEMS = [
     typeColor: 'var(--teal)'
   },
   {
+    cat: 'qna',
+    title: 'Q&A Сесия 06: Въпроси за младите',
+    desc: 'Психологът Диана Кралева отговаря на 4 въпроса за възрастта, на която започва залагането, игрите с платени кутии, гледането на спорт след спиране и първата стъпка към споделяне.',
+    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    video: 'images/archive/video/BEZ_ZALOG_QA_Session_06_vertical.mp4',
+    type: 'Q&A сесия',
+    typeColor: 'var(--teal)'
+  },
+  {
     cat: 'visii',
     title: 'Резултатът от теста достатъчен ли е за диагноза?',
     desc: 'Q&A визия — резултатът е ориентир, не медицинска диагноза',
