@@ -657,8 +657,12 @@ const ARCHIVE_ITEMS = [
     cat: 'qna',
     title: 'Q&A Сесия 01: Дали при мен вече е проблем?',
     desc: 'Психологът Диана Кралева отговаря на 6 въпроса за ранните сигнали, малките суми, честотата на залагане, резултата от теста, скрития проблем и момента, в който е време да се потърси специалист.',
-    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    thumb: 'images/archive/qna/BEZ_ZALOG_QA_Session_01_Cover_4x5.png',
     video: 'images/archive/video/BEZ_ZALOG_QA_Session_01.mp4',
+    cards: [
+      'images/archive/qna/BEZ_ZALOG_QA_Session_01_Card_01.png',
+      'images/archive/qna/BEZ_ZALOG_QA_Session_01_Card_02.png'
+    ],
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },
@@ -666,8 +670,12 @@ const ARCHIVE_ITEMS = [
     cat: 'qna',
     title: 'Q&A Сесия 02: Защо се случва?',
     desc: 'Психологът Диана Кралева отговаря на 6 въпроса за причините зад залагането, навика, вечерното напрежение, гоненето на загуби, усещането за контрол и безплатните версии.',
-    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    thumb: 'images/archive/qna/BEZ_ZALOG_QA_Session_02_Cover_4x5.jpeg',
     video: 'images/archive/video/BEZ_ZALOG_QA_Session_02_vertical.mp4',
+    cards: [
+      'images/archive/qna/BEZ_ZALOG_QA_Session_02_Card_01.png',
+      'images/archive/qna/BEZ_ZALOG_QA_Session_02_Card_02.png'
+    ],
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },
@@ -675,8 +683,12 @@ const ARCHIVE_ITEMS = [
     cat: 'qna',
     title: 'Q&A Сесия 03: Как да помогна на близък?',
     desc: 'Психологът Диана Кралева отговаря на 3 въпроса: как да говориш с приятел, който залага, дали да платиш дълга на детето си и дали проверяването на телефона помага.',
-    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    thumb: 'images/archive/qna/BEZ_ZALOG_QA_Session_03_Cover_4x5.png',
     video: 'images/archive/video/BEZ_ZALOG_QA_Session_03_vertical.mp4',
+    cards: [
+      'images/archive/qna/BEZ_ZALOG_QA_Session_03_Card_01.png',
+      'images/archive/qna/BEZ_ZALOG_QA_Session_03_Card_02.png'
+    ],
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },
@@ -684,8 +696,12 @@ const ARCHIVE_ITEMS = [
     cat: 'qna',
     title: 'Q&A Сесия 04: Семейство, партньор и доверие',
     desc: 'Психологът Диана Кралева отговаря на 3 въпроса за честния разговор, семейните финанси и какво може да направи дете, когато родител залага.',
-    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    thumb: 'images/archive/qna/BEZ_ZALOG_QA_Session_04_Cover_4x5.png',
     video: 'images/archive/video/BEZ_ZALOG_QA_Session_04_vertical.mp4',
+    cards: [
+      'images/archive/qna/BEZ_ZALOG_QA_Session_04_Card_01.png',
+      'images/archive/qna/BEZ_ZALOG_QA_Session_04_Card_02.png'
+    ],
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },
@@ -693,8 +709,12 @@ const ARCHIVE_ITEMS = [
     cat: 'qna',
     title: 'Q&A Сесия 05: Спиране и възстановяване',
     desc: 'Психологът Диана Кралева отговаря на 6 въпроса за лечението, връщането към залозите, рецидива, разговора с работодател и блокиращите приложения.',
-    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    thumb: 'images/archive/qna/BEZ_ZALOG_QA_Session_05_Cover_4x5.png',
     video: 'images/archive/video/BEZ_ZALOG_QA_Session_05_vertical.mp4',
+    cards: [
+      'images/archive/qna/BEZ_ZALOG_QA_Session_05_Card_01.png',
+      'images/archive/qna/BEZ_ZALOG_QA_Session_05_Card_02.png'
+    ],
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },
@@ -702,8 +722,12 @@ const ARCHIVE_ITEMS = [
     cat: 'qna',
     title: 'Q&A Сесия 06: Въпроси за младите',
     desc: 'Психологът Диана Кралева отговаря на 4 въпроса за възрастта, на която започва залагането, игрите с платени кутии, гледането на спорт след спиране и първата стъпка към споделяне.',
-    thumb: 'images/archive/web/qna-psiholog-poster.jpg',
+    thumb: 'images/archive/qna/BEZ_ZALOG_QA_Session_06_Cover_4x5.png',
     video: 'images/archive/video/BEZ_ZALOG_QA_Session_06_vertical.mp4',
+    cards: [
+      'images/archive/qna/BEZ_ZALOG_QA_Session_06_Card_01.png',
+      'images/archive/qna/BEZ_ZALOG_QA_Session_06_Card_02.png'
+    ],
     type: 'Q&A сесия',
     typeColor: 'var(--teal)'
   },

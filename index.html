@@ -308,6 +308,12 @@ h2.section-title{font-family:"Montserrat",sans-serif;font-size:clamp(26px,4vw,42
 .archive-type{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px;}
 .archive-card h4{font-size:13px;font-weight:600;color:var(--navy);margin-bottom:2px;line-height:1.4;}
 .archive-card p{font-size:12px;color:var(--text-light);}
+.qna-card-label{margin-top:14px;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--teal);}
+.qna-card-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px;}
+.qna-card-gallery a{display:block;border-radius:8px;overflow:hidden;border:1px solid var(--border);background:var(--bg);transition:transform .2s,box-shadow .2s;}
+.qna-card-gallery a:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm);}
+.qna-card-gallery a:focus-visible{outline:3px solid var(--yellow);outline-offset:2px;}
+.qna-card-gallery img{display:block;width:100%;height:auto;}
 .podcast-platforms{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px;}
 .podcast-platform-link{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:8px 12px;border-radius:9px;background:var(--navy);color:white;text-decoration:none;font-family:"Montserrat",sans-serif;font-size:11px;font-weight:700;transition:transform .2s,background .2s,box-shadow .2s;}
 .podcast-platform-link:hover{background:var(--teal);transform:translateY(-1px);box-shadow:0 5px 14px rgba(0,194,168,.22);}
@@ -1725,6 +1731,7 @@ function renderArchive(){
       + '<div class="archive-card-info">'
       + '<div class="archive-type" style="color:'+it.typeColor+';">'+it.type+'</div>'
       + '<h4>'+it.title+'</h4><p>'+it.desc+'</p>'
+      + (it.cards ? '<div class="qna-card-label">Карти към сесията</div><div class="qna-card-gallery">'+it.cards.map(function(card,index){return '<a href="'+card+'" target="_blank" rel="noopener" aria-label="Отвори карта '+(index+1)+' към '+it.title+'"><img src="'+card+'" alt="Карта '+(index+1)+' към '+it.title+'" loading="lazy"></a>';}).join('')+'</div>' : '')
       + (it.platforms ? '<div class="podcast-platforms">'+it.platforms.map(function(platform){return '<a class="podcast-platform-link" href="'+platform.url+'" target="_blank" rel="noopener noreferrer" aria-label="Отвори '+it.title+' в '+platform.label+'">'+platform.label+'</a>';}).join('')+'</div>' : '')
       + (it.proof ? '<a href="'+it.proof+'" target="_blank" rel="noopener" style="font-size:11px;color:var(--teal);">Доказателство →</a>' : '')
       + '</div></div>';
